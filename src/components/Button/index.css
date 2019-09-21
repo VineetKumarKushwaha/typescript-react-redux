@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #8BC34A;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container:global(.disabled) {
+    opacity: 0.3;
+}
